@@ -1,0 +1,134 @@
+<html>
+	<HEAD>
+		<title>Vincent van Gogh</title>
+	<style>
+		.vg{
+			font-size: 45px; 
+			margin: 0px; 
+			right: 235px; 
+			top: 100px; 
+			position: absolute; 
+			font-family: Gill Sans MT;
+			color:  #f86030;
+			transform: translateY(-20px);
+  			animation: animatetop 2s ease-in forwards; 
+		}
+			
+		.P1{
+			position: absolute;
+			right: 740px;
+			top: 92px;
+			width: 400px; 
+			ransform: scale(1);
+			transition: transform 0.5s ease;
+		}
+
+		.bio{
+			position: absolute;
+			right: 205px;
+			top: 160px;
+			width: 400px; 
+			text-align: justify;
+			line-height: 28px;
+			opacity: 0;
+			transform: translateY(20px);
+  			animation: animatetop 2s ease-in forwards; 
+		}
+
+		.g{
+			position: fixed;						
+			right: 505px;
+			top: 455px;
+			padding:8px;
+			border-radius: 35px;
+			background-color:  #7497cf;
+			letter-spacing: 2.5px;
+			font-family: Poppins;
+			color: white;
+			transform: translateY(20px);
+  			animation: animatetop 2s ease-in forwards; 
+		}
+			
+		.symbol{
+			position:absolute;
+			right: 650px;
+			top: 82px;
+    	  	font-size: 120px;
+     		color: #9c679d;
+			opacity: 0;
+			transform: translateY(0px);
+			animation: animatetop 1s ease-in forwards; 	
+		}
+
+		.g:hover{
+			background-color:#A2BFEB;
+			box-shadow: 0px 4px 0px #7497cf ;
+		}
+
+		.P1:hover{
+			transform: scale(1.1);
+			transition: transform 0.5s ease;
+		}
+			
+		
+		@keyframes animatetop{
+			form{
+				opacity: 0;
+				transform: translateY(0px);
+			}
+
+			to{
+				opacity: 1;
+				transform: translateY(0px);
+			}
+		}
+		
+		.link-container {
+  		display: flex;
+  		gap:18px;
+  		padding: 10px;
+		width:90px;
+   		background-color: #e09de2;
+		font-size: 20px;
+	 	border-radius: 30px;
+		justify-content: center;
+		box-shadow: 0px 3px 0px #9c679d;
+		position: relative;
+		top:10px;
+		right:-10px;
+		}
+
+		.link-container a{
+			text-decoration: none;
+		}
+
+		.link-container a:hover{
+			color:#ffffff;
+		}
+
+	</style>
+	</head>
+
+	<body bgcolor= "f9f0e4">
+		<img src="5.png" class="P1">
+		
+		<h1 class="vg">Vincent van Gogh</h1>
+		<P class="bio">Vincent Willem van Gogh lahir 30 Maret 1853, adalah seorang pelukis pascaimpresionis Belanda yang menjadi salah satu tokoh paling terkenal dan berpengaruh dalam sejarah seni di Barat. Dalam waktu lebih dari satu dasawarsa, ia menciptakan kurang lebih 2.100 karya seni, termasuk sekitar 860 lukisan minyak yang kebanyakan dibuat selama dua tahun terakhir kehidupannya. Karya-karya tersebut meliputi lukisan bentang alam, alam benda, potret, dan potret diri, dan memiliki ciri khas berupa warna yang tebal dan dramatis serta goresan kuas yang impulsif dan ekspresif.</p>
+
+		<a href="Art Gallery-12.html">
+			<p class="g">Gallery ↗</p>
+		</a>	
+		<p class="symbol">✦</p>
+
+		<div class="link-container">
+			<a href="Index.html">
+				<span title="Home">🏠︎</span>
+			</a>
+			<a href="Art Gallery-2.html">
+				<span title="Europe Artist">🖌︎</span>
+			</a>
+		</div>
+		
+
+	</body>
+</html>

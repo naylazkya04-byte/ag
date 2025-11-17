@@ -1,0 +1,176 @@
+<html>
+	<head>
+		<title>Europe Artists</title>
+	<style>
+		.P1{
+			position: absolute;
+			right: 490px;
+			top: 110px;
+			width: 300px;
+			transform: scale(0.8);
+			opacity: 0;
+			animation: scaleup 0.9s ease-out forwards;
+			transition: transform 2s ease;
+			
+		}
+
+		.P2{
+			position: absolute;
+			right: 890px;
+			top: 110px;
+			width: 300px; 
+			opacity: 0;
+			animation: scaleup 0.9s ease-out forwards;
+			transition: transform 2s ease;
+		}
+
+		.P3{
+			position: absolute;
+			right: 90px;
+			top: 110px;
+			width: 300px; 
+			opacity: 0;
+			animation: scaleup 0.9s ease-out forwards;
+			transition: transform 2s ease;
+		}
+
+		.GO{
+			position: absolute;
+			right: 947px;
+			top: 420px;
+			padding:8px;
+			border-radius: 35px;
+			letter-spacing: 2.5px;
+			font-family: Gill Sans MT;
+			color: #9c679d;
+			background-color: #f9f0e4;
+			text-decoration: none;
+			transition: transform 0.5s ease;
+		}
+
+		.sd{
+			position: absolute;
+			right: 565px;
+			top: 420px;
+			padding:8px;
+			border-radius: 35px;
+			letter-spacing: 2.5px;
+			font-family: Gill Sans MT;
+			color: #9c679d;
+			background-color: #f9f0e4;
+			text-decoration: none;
+			transition: transform 0.5s ease;
+		}
+
+		.vg{
+			position: absolute;						
+			right: 145px;
+			top:420px;
+			padding:8px;
+			border-radius: 35px;
+			letter-spacing: 2.5px;
+			font-family: Gill Sans MT;
+			color: #9c679d;
+			background-color: #f9f0e4;
+			text-decoration: none;
+			transition: transform 0.5s ease;
+		}
+
+		
+
+		.go:hover{
+			background-color: #FED6FF;
+			color: #9c679d;
+			transform: scale(1.2);
+			box-shadow:0 4px 10px;
+		}
+		.sd:hover{
+			background-color: #FED6FF;
+			color: #9c679d;
+			transform: scale(1.2);
+			box-shadow:0 4px 10px;
+		}
+		.vg:hover{
+			background-color: #FED6FF;
+			color: #9c679d;
+			transform: scale(1.2);
+			transition: transform 0.5s ease;
+			box-shadow:0 4px 10px;
+		}
+		
+		
+
+		@keyframes scaleup{
+			from{
+				transform: scale(0.8);
+				opacity: 0;
+			}
+			to{
+				transform: scale(1);
+				opacity:1;
+			}
+		
+		}
+
+		.link-container {
+  		display: flex;
+  		padding: 5px;
+		width:80px;
+   		background-color: #f9f0e4;
+		font-size: 30px;
+	 	border-radius: 30px;
+		justify-content: center;
+		position: relative;
+		top:10px;
+		right:-10px;
+		}
+
+		.link-container a{
+			text-decoration: none;
+			color:  #9c679d;
+		}
+
+		.link-container:hover{
+			box-shadow: 0px 5px 0px #7497cf;
+		}
+
+		.garis{
+			position:absolute;
+			top: 90px;
+			right: 0px;
+    	  	width: 1300px; 
+     		height: 1px;
+    		background-color:  #7497cf; 
+		}
+
+		.g2{
+			position:absolute;
+			top: 500px;
+			right: 0px;
+    	  	width: 1800px; 
+     		height: 90px;
+    		background-color:  #7497cf; 
+		}
+	</STYLE>
+
+	</head>
+
+	<BODY bgcolor="#B5C7E8">	
+		<img src="3.png" class="P1">
+		<img src="4.png" class="P2">
+		<img src="5.png" class="P3">
+	
+		<a href="Art Gallery-3.html" class="GO">🔍︎ Georgia O'Keeffe</a>
+    	<a href="Art Gallery-4.html" class="sd">🔍︎ Salvador Dalí</a>
+   		<a href="Art Gallery-5.html" class="vg">🔍︎ Vincent van Gogh</a>
+	
+		 <div class="link-container">
+			<a href="index.html">
+				<span>🏠︎</span>
+			</a>
+		</div>
+	
+		<div class="garis"></div>
+		<div class="g2"></div>
+	</BODY>
+</html>

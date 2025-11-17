@@ -1,0 +1,137 @@
+<html>
+	<HEAD>
+		<title>Georgia O' Keeffe</title>
+	<style>
+		.go{
+			font-size: 45px; 
+			margin: 0px; 
+			right: 247px; 
+			top: 125px; 
+			position: absolute; 
+			font-family: Gill Sans MT; 
+			color:  #f86030;
+			transform: translateY(-20px);
+  			animation: animatetop 2s ease-in forwards; 
+		}
+			
+		.P1{
+			position: absolute;
+			right: 740px;
+			top: 92px;
+			width: 400px; 
+			transform: scale(1);
+			transition: transform 0.5s ease;
+		}
+
+		.bio{
+			position: absolute;
+			right: 205px;
+			top: 175px;
+			width: 400px; 
+			text-align: justify;
+			line-height: 28px;
+			opacity: 0; 
+			transform: translateY(20px);
+  			animation: animatetop 2s ease-in forwards; 
+		}
+
+		.g{
+			position: fixed;						
+			right: 505px;
+			top: 420px;
+			padding:8px;
+			border-radius: 35px;
+			background-color:  #7497cf;
+			letter-spacing: 2.5px;
+			font-family: Gill Sans MT;
+			color: white;
+			transform: translateY(20px);
+  			animation: animatetop 2s ease-in forwards; 
+		}
+			
+		.symbol{
+			position:absolute;
+			right: 650px;
+			top: 90px;
+    	  	font-size: 120px;
+     		color: #9c679d;
+			opacity: 0;
+			transform: translateY(0px);
+			animation: animatetop 1s ease-in forwards; 	
+		}
+
+		.g:hover{
+			background-color:#A2BFEB;
+			box-shadow: 0px 4px 0px #7497cf ;
+		}
+
+		.P1:hover{
+			transform: scale(1.1);
+			transition: transform 0.5s ease;
+		}
+
+		
+		@keyframes animatetop{
+			form{
+				opacity: 0;
+				transform: translateY(0px);
+			}
+
+			to{
+				opacity: 1;
+				transform: translateY(0px);
+			}
+		}
+
+		.link-container {
+  		display: flex;
+  		gap:18px;
+  		padding: 10px;
+		width:90px;
+   		background-color: #e09de2;
+		font-size: 20px;
+	 	border-radius: 30px;
+		justify-content: center;
+		box-shadow: 0px 3px 0px #9c679d;
+		position: relative;
+		top:10px;
+		right:-10px;
+		}
+
+		.link-container a{
+			text-decoration: none;
+		}
+
+		.link-container a:hover{
+			color:#ffffff;
+		}
+
+	</style>
+	</head>
+
+	<body bgcolor= "f9f0e4">
+
+		<div class="container">
+			<img src="4.png" class="P1">
+		
+			<h1 class="go">Georgia O'Keeffe</h1>
+			<P class="bio">Georgia O'Keeffe adalah salah satu seniman paling  berpengaruh di abad ke - 20, yang terkenal karena kontribusinya terhadap seni modern. Lahir pada 15 November 1887 dan tumbuh besar di sebuah pertanian dekat Sun Prairie, Wisconsin. Saat lulus SMA pada tahun 1905, O'Keeffe telah bertekad untuk menekuni seninya. Ia belajar di Art Institute of Kota Chicago dan  Liga Mahasiswa Seni di NewYork, tempat ia mempelajari teknik melukis tradisional.</p>
+
+			<a href="Art Gallery-10.html">
+				<p class="g">Gallery ↗</p>
+			</a>	
+			<p class="symbol">✦</p>
+
+		<div class="link-container">
+			<a href="Index.html">
+				<span title="Home">🏠︎</span>
+			</a>
+			<a href="Art Gallery-2.html">
+				<span title="Europe Artist">🖌︎</span>
+			</a>
+		</div>
+		
+		
+
+	</body>
+</html>
